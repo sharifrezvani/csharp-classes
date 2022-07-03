@@ -1,0 +1,26 @@
+art of clean code
+
+Data Science at the Command Line (p.220)
+
+fundamentals of software architecture (5 architectures)/
+High performance browser networking/
+cryptography
+
+break 1 -
+CTO
+- Designs System based on:
+	1. scale
+	2. TPS (Transactions per Second)
+	3. complexity
+	4. Machine Learning
+
+ and then:
+	1. Designs architecture
+	2. chooses the technologies and the programming languages
+	that should be used
+	3. infrastructure architecture
+
+---------------------------------
+
+OOP - Classes- Inheritance - Namespace - Access Modifiers -
+Class Properties

@@ -1,0 +1,15 @@
+Built-in interfaces and implementing and overriding them
+
+CompareTo in IComparable interface
+
+Equals and IEquatable interface
+
+if it returns a positive number, the bigger number is before dot.
+
+if it returns a negative number, the smaller number is before dot.
+
+if it returns 0, both numbers are the same.
+
+Recursive methods
+
+System.IO

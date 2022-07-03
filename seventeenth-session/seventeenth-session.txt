@@ -1,0 +1,31 @@
+Async/Await (blocking/ non-blocking)
+Upcasting - Downcasting       Parallelism
+
+Task: The operation which we want to execute.
+
+Thread: The representative that does the operation.
+
+*threading river
+
+*parallelism: non-related tasks are done in multiple CPU cores and they are never in the way of each other. tasks are done separately and at the same time.
+
+*concurrecny: tasks are done together and at the same time.
+
+Dump()
+
+Async/Task/Await
+
+Async => State machine
+
+Task => The operation which we want to execute
+
+Await => 
+
+Upcasting/Downcasting
+
+Downcasting => when parent class is casted into the child class.
+Upcasting => The opposite of downcasting.
+
+*as
+*is
+*is not

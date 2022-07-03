@@ -1,0 +1,10 @@
+CEH
+CHF
+
+MaxBy(lambda expression);
+
+OrderBy();
+
+Except() works on two lists which contain the same types.
+
+ExecptBy()

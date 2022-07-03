@@ -1,0 +1,20 @@
+Async/Await/Task
+
+Upcasting/Downcasting
+
+Garbage Collection =>
+
+deconstructor method => a method that determines what should happen right before a class is about to be destroyed.
+
+GC.Collect() => sweeps everything
+
+GC.WaitingForPendingFinalizer() => calls the finalizer of collected items.
+
+
+or you can implement IDesposable and have the dispose method.
+
+
+or we can call using when we are about to create an object
+
+using is written in two forms.
+

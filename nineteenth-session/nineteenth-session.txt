@@ -1,0 +1,67 @@
+Cryptography =>
+
+Hash: 1. is a function which returns something for each unique input. (like a fingerprint)
+      2. you can never get the input from the returned thing.
+      3. the length of the returned hash is always the same.
+
+      has three common algorithms: md5 (which is now obsolete in web projects, because it had collisions), sha, sha256
+
+*hackers tend to test common password hashes (such as 123456789) -> this is called a rainbow table.
+
+*then salt is added into the password (either mixed or at the beginning or advanced, but mixed is more advanced) -> salt is a random text.
+
+Public Key/Private Key =>
+
+if something is sent with private key, the receiver can only send something back with their own private key.
+
+but if something is sent with public key, it can only be read.
+
+
+Code :
+
+-> readable = (is measured in two ways) > 1. readable 2. maintenance #this is more important algorithm-wise
+-> scalable = (is measured in two ways) > 1. time complexity 2. space complexity
+
+each algorithm is measured with Big O.
+
+algorithm => is a set of steps which provide the best way of completing a task.
+
+algorithm must include 1. problem statement
+                       2. input
+                       3. output
+
+algorithm must have some features such as 1. include 1. problem statement 2. input 3. output
+                                          2. must have steps and the order of those steps
+                                          3. steps shouldn't be prone to being made simpler (they should be as simple as possible)
+                                          4. must have result
+                                          5. must be finished within a reasonable time
+                                          6. must be doable with all inputs
+
+
+
+algorithm => 1. correctness: there's an output for each input and the algorithm will end eventually.
+             2. efficiency: *space complexity *time complexity
+
+Big O Calculation:
+1. worst case
+2. remove instant (constant) operation
+3. different inputs
+4. drop non-dominant
+
+
+Google prioritizes *readable* code over code with good performance and big-O
+
+
+Data Structure:
+
+Array
+
+Dictionary
+
+Hash table
+
+python => Dictionary
+
+c# => dictionary, hash table
+
+js => map, set

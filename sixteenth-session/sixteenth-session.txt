@@ -1,0 +1,5 @@
+delegate types => action (has a return type of void)<can have up to 16 parameters>
+             => Func<can have up to 16 parameters. has one return which is the last item in the parameters>
+
+
+Event 

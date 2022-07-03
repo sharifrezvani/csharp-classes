@@ -1,0 +1,18 @@
+struct (Value Type)
+The main difference between class and structure is in the way that they are used.
+It lives in the stack memory and not the heap memory.
+No value will ever be null in a structure.
+There's no such thing as inheritance in structures.
+All variables must have values, as well as properties.
+
+A function's signature is it's parameters.
+
+Overloading means using the same function with different parameters(literally the same function).
+
+Interface
+Is a set of rules that are set for class creation and inheritance.
+Doesn't have any access modifiers.
+A class doesn't inherit from an interface but interfaces can inherit from one another.
+An interface is implemented in a class.
+Deploying the body of a method in an interface does not make any sense.
+Interfaces can be used to compare, limit and make a connection between similar parts of different classes.

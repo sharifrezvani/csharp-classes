@@ -1,0 +1,18 @@
+Sealed Classes
+Can't be inherited.
+
+This is useful if you only want the class to be made into an object.
+
+Abstract Classes
+Is a type of limitation for the class. It can be implemented in new classes.
+
+Overriding
+
+An abstract method can only exist in an abstract class.
+
+Abstract classes must be overridden.
+
+Virtual classes may be overridden.
+
+if a method is not virtual or abstract it can't be overridden.
+

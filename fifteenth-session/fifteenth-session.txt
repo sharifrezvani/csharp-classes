@@ -1,0 +1,18 @@
+LINQ
+Linquer
+
+delegate => نماینده
+-> action
+-> function
+
+1. is a pointer which points to a function. (widely accepted in Iran, but not correct. it used to be a pointer. a pointer can only point at one thing at the time.)
+2. is an object which includes some methods.
+3. is something which knows how to call methods and functions. (best possible description)
+
+newtonsoft json .net nuget
+
+extention nuget
+
+(dotnet add package Newtonsoft.Json -> in terminal)
+
+working with json

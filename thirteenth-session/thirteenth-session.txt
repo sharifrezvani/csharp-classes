@@ -1,0 +1,46 @@
+Stream
+
+* stream + microservice
+* video stream
+* file stream
+
+* also check up on Web Socket and Pooling, Signal R
+
+
+(broadcasting)
+
+In stream connections, if we have subscribers, the connection is one-way.
+But if we have a connection between two medias, the connection is two way.
+
+Is an organized block of memory.
+
+
+Arrow Functions.
+
+
+list:
+
+AddRange adds up to lists.
+
+Distinct removes all repeating items.
+
+All searches for a condition throughout a list.
+
+StartsWith looks for the beginning of items.
+
+Any searches for a condition throughout a list, but will be true even if one item is true.
+
+Foreach does something for each item only in a list.
+
+Aggregate does something in each item only in a list.
+
+Chunk takes out a piece of a list and return two arrays. one including that piece, one what is left of the list.
+
+ElementAt chooses a specific item. in a collection.
+
+
+
+
+
+
+
