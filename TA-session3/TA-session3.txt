@@ -1,0 +1,79 @@
+--------------|   Data Structures   |------------
+
+1. Stack (پشته) =>
+--------
+
+Last in, First out:
+
+the last item which is added, is the first item which is removed.
+
+2. Queue (صف)=>
+--------
+
+First in (Enqueue), First out (Dequeue):
+
+the first item which is added, is the first item which is removed.
+
+
+3. Linked Lists =>
+---------------
+
+in pseudocode:
+
+**the first part is knows as the "head"
+class a
+    {
+        value: a;
+        next: b;
+    }                       
+                class b
+                {
+                    value: b;
+                    next: c;
+                }
+                            class c
+                            {
+                                value: c;
+                                next: null;
+                            }
+                            **the last part is known as the "tail"
+
+
+3. Double Linked Lists =>
+----------------------
+
+it has a head and tail just as linked lists.
+
+but is has previous as well as next.
+
+in pseudocode:
+
+class a
+    {
+        value: a;
+        next: b;
+        previous: null;
+    }                       
+                class b
+                {
+                    value: b;
+                    next: c;
+                    previous: a;
+                }
+                            class c
+                            {
+                                value: c;
+                                next: null;
+                                previous: b;
+                            }
+
+
+LINQ =>
+
+some keywords: select - chooses something
+               from - 
+               where -
+               except - is kinda similar to an "else" statement
+               add -
+               delete -
+
