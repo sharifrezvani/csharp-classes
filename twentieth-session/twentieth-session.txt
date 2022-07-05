@@ -1,0 +1,86 @@
+------- Resuming with Big O Data Structures ---------
+
+Linked List => |1. Singly |2. Doubly |3. Circular
+
+***refer to TA-Session3
+
+visualalgo.net => Linked lists and so on...
+
+they have a hea and a tail
+
+*Stack =>             
+                      |___|First
+                      |___|
+                      |___|Last
+                      
+prepend O(n)
+
+append O(1)
+
+lookup O(n)
+
+insert O(1)
+
+delete O(1)
+
+*Queue =>
+
+lookup O(n)
+
+enqueue O(1)
+
+dequeue O(1)
+
+peek O(n)
+
+*Trees =>
+
+Binary Tree: node ->  can have 0, 1, 2 nodes.
+             each child can only have one parent.
+
+             perfect binary tree is a pyramid =>              O
+                                                             / \
+                                                            O   O
+                                                           / \ / \
+                                                          O  O O  O
+
+            full binary tree =>
+
+            each parent has either 0 or 2 children.         O
+                                                           / \
+                                                          O   O
+                                                         / \
+                                                        O   O
+
+visualalgo binary search tree
+
+in binary tree each child in the left side must have a smaller value compared to the child on the right side.
+
+
+
+Heap Tree => (has various types, but the following will be about "min heap tree")
+
+Invariant: the parents must be smaller than the children. the right child must be bigger than the left child.            4
+                                                                                                                        / \
+                                                                                                                       6   7
+                                                                                                                          / \
+                                                                                                                         8   11
+It prioritizes inserting to the left side rather than the right side.
+
+
+
+*Graph =>
+
+
+
+1. Directed: O--->O
+2. Undirected: O---O
+        &
+1. Cyclic:         O----O 
+                   |    |
+                   O----O
+
+
+2. Acyclic:        O----O----O
+
+
